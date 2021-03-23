@@ -17,10 +17,6 @@ font-weight: 800;
 font-family: 'Poppins', sans-serif;
 }
 
-
-
-/* Utilities */
-
 .text-black {
     color: var(--VeryDarkCyan);
 }
@@ -72,10 +68,6 @@ header{
 
 .head__title{
     font-size: 2rem;
-}
-
-.container{
-    max-width: 100%;
 }
 
 .container__title {
@@ -170,6 +162,7 @@ main {
 
 .newsletter__title h3 {
     font-size: 2rem;
+    text-transform: uppercase;
 }
 
 .newsletter__title,
@@ -192,6 +185,7 @@ main {
 .btn__input-input{
     width: 95%;
     margin-bottom: 1rem;
+    border-radius: 5px solid black;
 }
 
 .btns__btn-sub {
@@ -217,17 +211,95 @@ footer{
     padding-right: 2rem;
 }
 
-.footer__card{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+.footer__card {
+    margin-top: 3rem;
 }
+
+.contact__card-phone,
+.contact__card-email {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+
+.contact__card-phone p {
+    margin-left: 1rem;
+}
+
+.contact__card-email p {
+    margin-left: 1rem;
+}
+
 
 .socialCards {
     display: flex;
     direction: row;
+    justify-content: space-evenly;
+    margin-top: 1.5rem;
 }
 
+/* Backgrounds */
+
+footer{
+    background-color: var(--VeryDarkCyan);
+    color: white;
+}
+
+.bg__top-footer{
+    width: 100%;
+    position: relative;
+    bottom: -6px;
+}
+
+/* MediaQueries */
+
+@media screen and (min-width: 960px){
+    :root{
+        font-size: 95%;
+    }
+    .box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .card{
+        display: flex;
+        flex-direction: row;
+    }
+    .card__img-together{
+        flex-direction: row-reverse;
+    }
+    .container__text{
+        max-width: 30rem;
+        margin: 0 auto;
+        margin-bottom: 4rem;
+    }
+    .card__text{
+        max-width: 40%;
+    }
+
+    .card__text p{
+        font-size: 90%;
+    }
+    .bg__top-footer{
+        bottom: -8px;
+    }
+    .newsletter{
+        padding: 7rem;
+    }
+    footer{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .secondFooter{
+        margin-top: 7rem;
+    
+    }
+
+}
 
 
 
