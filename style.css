@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
+:root { 
+/* Primary */
+--Pink: hsl(322, 100%, 66%);
+--LightPink: hsl(321, 100%, 78%);
+--LightRed: hsl(0, 100%, 63%);
+
+/* Neutral */
+--VeryDarkCyan: hsl(192, 100%, 9%);
+--VeryPaleBlue: hsl(207, 100%, 98%);
+
+/* FontFamily */
+font-size: 62.5%; 
+font-weight: 800;
+font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* Utilities */
+
+.text-black {
+    color: var(--VeryDarkCyan);
+}
+
+.head__btn-tryItFree {
+    cursor: pointer;
+    padding: 0.5rem 3rem;
+    transition: all 0.3s ease;
+    color:hsl(321, 100%, 78%);
+    background-color: #fff;
+    border: 2px solid var(--LightPink);
+    border-radius: 16px;
+    
+}
+
+.head__btn-tryItFree:hover {
+    transform: translateY(-2px);
+}
+
+body {
+    text-align: center;
+}
+
+body,
+p,
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 3rem;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.head__title{
+    font-size: 2rem;
+}
+
+.container{
+    max-width: 100%;
+}
+
+.container__title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 6rem;
+}
+
+.container__text {
+    margin-bottom: 2rem;
+}
+
+.container__btn-startedFree {
+    background-color: var(--Pink);
+    border: none;
+    border-radius: 20px;
+    padding: 1rem 2rem;
+    color: white; 
+    margin-bottom: 8rem;
+}
+
+main {
+    margin: 0 5rem;
+}
+
+.imgCard{
+    width: 100%;
+}
+
+.numberBox {
+    background-color: red;
+    margin: 3rem 0rem;
+    max-width: 200px;
+    margin: 3rem auto;
+}
+
+
