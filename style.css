@@ -64,7 +64,10 @@ header{
 .head {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+}
+
+.head__img img {
+    width: 50%;
 }
 
 .head__title{
@@ -99,14 +102,137 @@ main {
 }
 
 .imgCard{
-    width: 100%;
+    width: 60%;
+    margin-bottom: 3rem;
+}
+
+.box {
+    padding: 2rem 0;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .numberBox {
-    background-color: red;
-    margin: 3rem 0rem;
-    max-width: 200px;
-    margin: 3rem auto;
+    margin: 3rem 0;
 }
+
+.numberBox__num {
+    font-size: 3.4rem;
+}
+
+.numberBox__text {
+    color: black;
+}
+
+.numberBox__img {
+    display: flex;    
+    justify-content: flex-start;
+}
+
+.numberBox__image {
+    width: 20%;
+}
+
+.card {
+    padding: 2rem 0;
+}
+
+.card__img-together,
+.card__img-flowing,
+.card__img-users {
+    width: 60%;
+}
+
+.card__text {
+    margin-top: 3rem;
+}
+
+.card__text h2 {
+    font-size: 2rem;
+}
+
+.build{
+    margin-top: 3rem;
+}
+
+.build__card {
+    padding: 3rem 0;
+}
+
+.newsletter {
+    margin: 3rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter__title h3 {
+    font-size: 2rem;
+}
+
+.newsletter__title,
+.newsletter__text{
+    text-align: start;
+    margin: 0.3rem 0;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.btns__input {
+    margin-top: 2rem;
+}
+
+.btn__input-input{
+    width: 95%;
+    margin-bottom: 1rem;
+}
+
+.btns__btn-sub {
+    background-color: var(--Pink);
+    border: none;
+    border-radius: 3px;
+    padding: 0.8rem 3rem;
+    color: white; 
+    cursor: pointer;
+}
+
+footer{
+    padding: 3rem;
+}
+
+.head__img-footer-title {
+    font-size: 2rem;
+}
+
+.footer__text {
+    margin-top: 2rem;
+    text-align: start;
+    padding-right: 2rem;
+}
+
+.footer__card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.socialCards {
+    display: flex;
+    direction: row;
+}
+
+
+
+
+
+
+
 
 
